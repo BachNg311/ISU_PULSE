@@ -14,6 +14,10 @@
             android:id="@+id/nav_courses"
             android:title="Courses" />
 
+        <item
+            android:id="@+id/nav_map"
+            android:title="Map" />
+
         <!-- Profile remains as-is -->
         <item
             android:id="@+id/nav_profile"

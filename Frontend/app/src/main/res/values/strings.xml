@@ -36,4 +36,5 @@
         <item>People</item>
         <item>Tasks</item>
     </string-array>
+    <string name="title_activity_maps">MapsActivity</string>
 </resources>

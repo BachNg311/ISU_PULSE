@@ -8,6 +8,7 @@ import android.widget.Button;
 
 import com.coms309.isu_pulse_frontend.chat_system.ChatList;
 import com.coms309.isu_pulse_frontend.databinding.ActivityMainBinding;
+import com.coms309.isu_pulse_frontend.ggmap.MapsActivity;
 import com.coms309.isu_pulse_frontend.loginsignup.LoginActivity;
 import com.coms309.isu_pulse_frontend.loginsignup.SignupActivity;
 import com.coms309.isu_pulse_frontend.loginsignup.UserSession;
@@ -92,7 +93,12 @@ public class MainActivity extends AppCompatActivity {
                     startActivity(new Intent(MainActivity.this, LoginActivity.class));
                     drawer.closeDrawers();
                     return true;
-                } else {
+                } else if (id == R.id.nav_map){
+                    startActivity(new Intent(MainActivity.this, MapsActivity.class));
+                    drawer.closeDrawers();
+                    return true;
+                }
+                else {
                     return NavigationUI.onNavDestinationSelected(item, navController) || super.onOptionsItemSelected(item);
                 }
             });

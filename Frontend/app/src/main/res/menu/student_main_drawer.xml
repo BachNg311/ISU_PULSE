@@ -17,6 +17,9 @@
             android:id="@+id/nav_announcements"
             android:title="Announcements" />
         <item
+            android:id="@+id/nav_map"
+            android:title="Map" />
+        <item
             android:id="@+id/nav_profile"
             android:title="Profile" />
         <item
