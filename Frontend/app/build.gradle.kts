@@ -66,6 +66,7 @@ dependencies {
     implementation(libs.firebase.database)
     implementation(libs.espresso.contrib)
     implementation(libs.play.services.maps)
+    implementation(libs.play.services.location)
 //    implementation(files("C:\\Users\\autri\\AppData\\Local\\Android\\Sdk\\platforms\\android-35\\android.jar")) // there was an error for dependency for 2 classes.
     // So it is commented but it was used for javadocs
     annotationProcessor(libs.glide.compiler)

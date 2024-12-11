@@ -19,6 +19,7 @@ espressoContrib = "3.6.1"
 googleAndroidLibrariesMapsplatformSecretsGradlePlugin = "2.0.1"
 playServicesMaps = "19.0.0"
 mapboxSdk = "11.8.1"
+playServicesLocation = "21.3.0"
 
 [libraries]
 junit = { group = "junit", name = "junit", version.ref = "junit" }
@@ -40,6 +41,7 @@ firebase-database = { group = "com.google.firebase", name = "firebase-database",
 espresso-contrib = { group = "androidx.test.espresso", name = "espresso-contrib", version.ref = "espressoContrib" }
 play-services-maps = { group = "com.google.android.gms", name = "play-services-maps", version.ref = "playServicesMaps" }
 mapbox-sdk = { group = "com.mapbox.maps", name = "android", version.ref = "mapboxSdk" }
+play-services-location = { group = "com.google.android.gms", name = "play-services-location", version.ref = "playServicesLocation" }
 
 
 [plugins]
