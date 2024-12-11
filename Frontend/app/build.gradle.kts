@@ -79,9 +79,9 @@ dependencies {
     // Android instrumentation test dependencies
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
-
+    implementation("com.mapbox.maps:android:11.8.1")
+    implementation("com.mapbox.extension:maps-compose:11.8.1")
     implementation("com.google.code.gson:gson:2.8.8")
-
     implementation("org.java-websocket:Java-WebSocket:1.5.2")
     // implementation("org.apache.httpcomponents:httpclient:4.5.13")
     testImplementation("org.mockito:mockito-core:4.0.0")
