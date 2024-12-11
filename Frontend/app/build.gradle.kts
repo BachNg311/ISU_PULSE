@@ -74,9 +74,17 @@ dependencies {
     testImplementation(libs.junit)
     testImplementation("org.robolectric:robolectric:4.10.3") // Robolectric for unit tests
     testImplementation("androidx.test.ext:junit:1.1.5")
-    testImplementation("androidx.test:core:1.4.0")
+    testImplementation("androidx.test:core:1.6.1")
     androidTestImplementation("androidx.test.espresso:espresso-contrib:3.4.0")
+    implementation("com.mapbox.maps:android:11.8.1")
+    implementation("com.google.android.libraries.places:places:2.7.0");
+    implementation(libs.play.services.maps)
+    implementation(libs.play.services.maps.v1810)
+    implementation(libs.play.services.location)
+    implementation("com.google.maps:google-maps-services:2.2.0")
+    implementation("com.google.android.libraries.places:places:2.7.0")
 
+    implementation("com.google.maps.android:android-maps-utils:2.2.3")
     // Android instrumentation test dependencies
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
