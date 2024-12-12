@@ -1,6 +1,7 @@
 1. Project Overview
 
 The ISU Pulse application aims to provide Iowa State University (ISU) students, teachers, and administrators with a comprehensive platform to manage schedules, access campus information, and facilitate communication. The app integrates various functionalities such as class schedules, campus maps, real-time chat, and weather updates to enhance the campus experience for all users.
+
 2. Team Members and Roles
 
     Autrin (Frontend Developer)
