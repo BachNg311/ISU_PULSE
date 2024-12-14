@@ -14,6 +14,7 @@ The ISU Pulse application aims to provide Iowa State University (ISU) students, 
         Focuses on backend infrastructure, security, and data management.
 
 3. Core Requirements Alignment
+   
 3.1. Different Categories of Users
 
     Administrators
