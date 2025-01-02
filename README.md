@@ -1,33 +1,47 @@
-1. Project Overview
+# ISU Pulse
 
-The ISU Pulse application aims to provide Iowa State University (ISU) students, teachers with a comprehensive platform to manage schedules, and facilitate communication. The app integrates various functionalities such as daily tasks, class schedules, course lists, announcements, calendars, common classes that students are taking, friend suggestions, real-time chat, profile view, AI chat (GPT-4o), and weather temperature to enhance the campus experience for all teachers and students.
+ISU Pulse is a comprehensive platform for Iowa State University (ISU) students, teachers, and administrators to manage schedules, access campus information, and communicate seamlessly. The app integrates features like class schedules, campus maps, real-time chat, and weather updates to enhance the campus experience.
 
-2. Team Members and Roles
+## Team Members and Roles
 
-    Autrin Hakimi (Frontend Developer)
+- **Autrin (Frontend Developer)**  
+  Responsible for designing and implementing the user interface and user experience.
 
-    Tat Bach Nguyen (Frontend Developer)
+- **Bach (Frontend Developer)**  
+  Collaborates on UI/UX development and ensures responsiveness across devices.
 
-    Tam (Minh) Nguyen (Backend Developer)
+- **Minh (Backend Developer)**  
+  Develops and maintains server-side logic, database structures, and API integrations.
 
-    Nhat (Chris) Le (Backend Developer)
+- **Nhat (Backend Developer)**  
+  Focuses on backend infrastructure, security, data management and API integrations.
 
-4. Different Categories of Users
+## Key Features
 
-    Teachers
-   
-    Students/Users
+1. **User Roles**  
+   - **Administrators**: Manage accounts, schedules, and send system-wide announcements.  
+   - **Teachers/Managers**: Manage courses, communicate with students, and share resources.  
+   - **Students**: Access schedules, chat, maps, bus schedules, and local amenities.
 
-6. License
-Shield: [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
+2. **Functionality**  
+   - **System Announcements**: Real-time notifications for events, deadlines, and alerts.  
+   - **Calendar and Scheduling**: Manage personal events and sync with external calendars.  
+   - **Real-Time Chat**: Group chats, study groups, and friend connections via NetID.  
+   - **Weather Updates**: Live weather data relevant to campus activities.  
+   - **AI Assistance**: GPT-powered suggestions for course recommendations.
 
-This work is licensed under a
-[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
+3. **Database Relationships**  
+   - Comprehensive user management with role-based permissions.  
+   - Efficient course, schedule, and messaging data handling.  
+   - Integration of external APIs for maps, weather, and transport data.
 
-[![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
+4. **Significant GUI**  
+   - Intuitive dashboards for administrators, teachers, and students.  
+   - Responsive layouts for various Android devices.  
+   - Seamless navigation for enhanced user engagement.
 
-[cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
-[cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
-[cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
+## License
 
-The code is for educational purposes and should not be copied or reused by other students for academic work.
+This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+[![CC BY-NC-SA 4.0](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
